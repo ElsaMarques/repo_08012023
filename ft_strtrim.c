@@ -61,5 +61,5 @@ char	*ft_strtrim(char const *s1, char const *set)
 		len = end - start;
 	else
 		len = 0;
-	return (ft_substr(s1, start, end - start + 1));
+	return (ft_substr(s1, start, len + 1));
 }
